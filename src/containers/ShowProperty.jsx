@@ -36,7 +36,7 @@ const mapDispatchToProps = dispatch => bindActionCreators(
   {updateEditPath}, dispatch)
 
 const mergeProps = (
-  {id, label, objects, isDatatypeProperty},
+  {/*id,*/ label, objects, isDatatypeProperty},
   {updateEditPath},
   {path}) => (
 

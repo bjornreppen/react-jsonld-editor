@@ -39,8 +39,8 @@ const mapDispatchToProps = dispatch => bindActionCreators(
   {updateEditPath, deleteIn}, dispatch)
 
 const mergeProps = (
-  {id, label, objects, isObjectProperty, deletable},
-  {updateEditPath, deleteIn},
+  {/*id,*/ label, objects, isObjectProperty, deletable},
+  {/*updateEditPath,*/ deleteIn},
   {path}) => {
   const children =
     [ <Text>{label}</Text>
